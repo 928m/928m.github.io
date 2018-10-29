@@ -31,9 +31,14 @@ ul {
 
 .wrap ul li {
   display: inline-block;
+  margin: 0 0 0 10px;
   min-width: 200px;
   position: relative;
   transition: all .5s;
+}
+
+.wrap ul li:first-child {
+  margin-left: 0;
 }
 
 .wrap ul li:hover {
